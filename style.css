@@ -57,7 +57,7 @@ img {
 .login-page {
     height: 100vh;
     min-height: 600px;
-    background-image: url('assets/img/Investor-Login-Page.png');
+    background-image: url('assets/img/BG-Signin.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
