@@ -1,0 +1,209 @@
+/*
+Version: 1.0.0
+Author: Mehedi Hasan
+Author URI: http://promehedi.com/
+*/
+/* font converted using font-converter.net. thank you! */
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("assets/fonts/helveticaneue-Regular.eot"); /* IE9 Compat Modes */
+    src: url("assets/fonts/helveticaneue-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("assets/fonts/helveticaneue-Regular.otf") format("opentype"), /* Open Type Font */
+      url("assets/fonts/helveticaneue-Regular.svg") format("svg"), /* Legacy iOS */
+      url("assets/fonts/helveticaneue-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("assets/fonts/helveticaneue-Regular.woff") format("woff"), /* Modern Browsers */
+      url("assets/fonts/helveticaneue-Regular.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "HelveticaNeue";
+    color: #333;
+    font-size: 17px;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+input:focus, textarea:focus, button:focus, a:focus {
+    outline: none;
+}
+
+button[type=submit], input[type=submit] {
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+h1, h2, h3, h4 {
+	margin: 0 0 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Login Page Style */
+.login-page {
+    height: 100vh;
+    min-height: 600px;
+    background-image: url('assets/img/Investor-Login-Page.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #737373;
+}
+
+.login-page div {
+    height: 100%;
+}
+
+.login-page .row div {
+    height: unset;
+}
+
+.login-box .login-form {
+    background-color: rgba(0,0,0,0.48);
+    border-radius: 2px;
+    padding: 20px;
+    padding-top: 14px;
+}
+
+.login-form input, .login-form label {
+    display: block;
+}
+
+.login-form label {
+    color: #EBEBEB;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 0;
+    border: 1px solid #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.login-form input:focus {
+    box-shadow: 0 3px 6px rgba(107, 158, 100, 0.34);
+    border: 1px solid #388456;
+}
+
+.login-form button[type=submit] {
+    display: inline-block;
+    background-color: #388456;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px 38px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.login-form button[type=submit]:hover {
+    background-color: #32774d;
+}
+
+.login-form .forgot-pass {
+    display: inline-block;
+    color: #C5C5C5;
+    margin-top: 25px;
+    transition: all 0.3s;
+}
+
+.login-form .forgot-pass:hover {
+    color: #fff;
+}
+
+.login-form > h4 {
+    color: #EBEBEB;
+    font-size: 18px;
+    padding: 0px 20px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #B2B2B2;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.login-box .logo {
+    margin-left: -68px;
+}
+
+/* Form Error */
+.error {
+    margin-top: -15px;
+    display: none;
+    font-size: 90%;
+}
+
+.login-form .text-danger {
+    color: #bf0618!important;
+}
+
+.login-form input.inputError {
+    border: 1px solid #c54747;
+    box-shadow: 0 3px 6px rgba(185, 65, 65, 0.34);
+    color: red;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .login-page > div.container {
+        padding-left: 70px;
+    }
+    
+    .login-form > h4 {
+        font-size: 17px;
+    }
+    
+    .login-form input {
+        padding: 10px;
+    }
+
+    .login-form button[type=submit] {
+        padding: 8px 35px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .login-box .logo {
+        margin-left: 0;
+        margin-bottom: 15px;
+        display: block;
+    }
+}
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+    .login-box .logo img {
+        max-height: 60px;
+    }
+    .login-form input {
+        padding: 10px;
+    }
+    .login-form button[type=submit] {
+        padding: 8px 30px;
+        font-size: 16px;
+    }
+}

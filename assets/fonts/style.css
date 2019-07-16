@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./fonts/helveticaneue-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/helveticaneue-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/helveticaneue-Regular.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/helveticaneue-Regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/helveticaneue-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/helveticaneue-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/helveticaneue-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
